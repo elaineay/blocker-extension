@@ -9,6 +9,7 @@
 //      URLs to be matched (used a configuration
 //      page, for example) we'd then specify the
 //      wildcard <all_urls> and then do the filtering
+//      ourselves.
 // const urls: [
 //     '*://news.ycombinator.com/*'
 //   ]
