@@ -1,0 +1,25 @@
+{
+  "name": "Distraction Blocker",
+  "version": "1.0",
+  "description": "Stop getting distracted by websites you don't need.",
+  "permissions": [
+    "declarativeContent",
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "*://news.ycombinator.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "1": "images/octagon.png"
+    }
+  },
+  "icons": {
+    "1": "images/octagon.png"
+  },
+  "manifest_version": 2
+}
